@@ -1,0 +1,98 @@
+body {
+    margin-top: 35px;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.certificate {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.h {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+img {
+    max-width: 5rem;
+    max-height: 5rem;
+}
+
+.text {
+    font-weight: 100;
+    padding-left: 30px;
+    text-align: center;
+    line-height: 1px;
+}
+
+.text p {
+    font-size: 9px;
+    font-weight: bold;
+}
+
+.text h3 {
+    font-size: 18px;
+    letter-spacing: -1px;
+}
+
+.cor {
+    margin-top: -15px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.cor h2 {
+    letter-spacing: 4px;
+    font-size: 20px;
+}
+
+.registration {
+    margin-top: -20px;
+    padding-left: 60px;
+    display: flex;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.registration #p1 {
+    padding-left: 20px;
+    color: rgb(143, 10, 10);
+}
+
+.general {
+    border: 1px solid black;
+    margin-top: -10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+.general h3 {
+    font-size: 13px;
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 2px;
+    color: #f0f0f0;
+}
+
+.info {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 1px;
+    padding-left: 5px;
+    margin-top: -10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+}
+
+.info p {
+    font-size: 13px;
+}
