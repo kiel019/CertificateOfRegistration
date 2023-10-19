@@ -91,8 +91,107 @@ img {
     margin-left: 40px;
     margin-right: 40px;
     display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.info > * {
+    flex-basis: 25%;
+
 }
 
 .info p {
     font-size: 13px;
+}
+
+.info #p1 {
+    font-weight: bold;
+}
+
+.sn_class {
+    display: flex;
+    gap: 10px;
+}
+
+.college_class {
+    display: flex;
+    gap: 10px
+}
+
+.sy_class {
+    display: flex;
+    gap: 10px;
+}
+
+.name_class {
+    display: flex;
+    gap: 10px;
+}
+
+.program_class {
+    display: flex;
+    gap: 10px;
+}
+
+.curriculum_class {
+    display: flex;
+    gap: 10px;
+}
+
+.major_class {
+    display: flex;
+    gap: 10px;
+}
+
+.scholarship_class {
+    display: flex;
+    gap: 10px;
+}
+
+.gender_age_class {
+    display: flex;
+    gap: 10px;
+}
+
+.gender_age_class .space {
+    gap: 30px;
+}
+
+.year_class {
+    display: flex;
+    gap: 10px;
+}
+
+.subject_header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 1px solid black;
+    margin-top: -10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+.subject_header h4 {
+    font-size: 13px;
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 2px;
+    color: #f0f0f0;
+}
+
+.unit h4 {
+    letter-spacing: 8px;
+}
+
+.llc {
+    display: flex;
+    gap: 5px;
+    color: #f0f0f0;
+    font-size: 12px;
 }
