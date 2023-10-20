@@ -87,28 +87,20 @@ img {
     border-bottom: 1px solid black;
     padding-top: 1px;
     padding-left: 5px;
-    margin-top: -10px;
     margin-left: 40px;
     margin-right: 40px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-flow: row wrap;
-    align-content: flex-start;
-    justify-content: space-between;
-    gap: 5px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    row-gap: 2px;
 }
 
-.info > * {
-    flex-basis: 25%;
-
-}
-
-.info p {
-    font-size: 13px;
+.info #p2 {
+    font-size: 11px;
 }
 
 .info #p1 {
     font-weight: bold;
+    font-size: 11px;
 }
 
 .sn_class {
@@ -156,8 +148,8 @@ img {
     gap: 10px;
 }
 
-.gender_age_class .space {
-    gap: 30px;
+.gender_age_class #space {
+    gap: 40px;
 }
 
 .year_class {
@@ -170,7 +162,6 @@ img {
     flex-wrap: wrap;
     justify-content: space-around;
     border: 1px solid black;
-    margin-top: -10px;
     margin-left: 40px;
     margin-right: 40px;
     background: rgb(2,0,36);
