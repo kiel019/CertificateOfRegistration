@@ -278,3 +278,51 @@ img {
     justify-content: flex-end;
     margin-right: 10px;
 }
+
+.midbox {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding-top: 1px;
+    padding-left: 5px;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    row-gap: 2px;
+}
+
+.assess {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    row-gap: 2px;
+}
+
+.assesstext {
+    display: grid;
+    grid-template-rows: repeat(16);
+    font-size: 13px;
+    padding-left: 20px;
+}
+
+.assessno {
+    display: grid;
+    grid-template-rows: repeat(16);
+    font-size: 13px;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.fees {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 1px;
+    padding-left: 5px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.feesheader {
+    border-bottom: 1px solid black;
+}
